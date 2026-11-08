@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Maven: test",
+      "type": "shell",
+      "command": "./mvnw test",
+      "windows": { "command": ".\\mvnw.cmd test" },
+      "group": { "kind": "test", "isDefault": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "Maven: package jar",
+      "type": "shell",
+      "command": "./mvnw package",
+      "windows": { "command": ".\\mvnw.cmd package" },
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    }
+  ]
+}

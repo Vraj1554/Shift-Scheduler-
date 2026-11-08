@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Shift Scheduler",
+      "request": "launch",
+      "mainClass": "com.vraj.scheduler.Main",
+      "projectName": "shift-scheduler",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}

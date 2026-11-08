@@ -1,0 +1,9 @@
+target/
+data/
+.mvn/wrapper/maven-wrapper.jar
+
+# VS Code Java extension generated files
+.classpath
+.project
+.settings/
+.factorypath
